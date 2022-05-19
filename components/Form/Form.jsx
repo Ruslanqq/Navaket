@@ -42,7 +42,7 @@ export default function Form() {
             placeholder = "Номер"
             onChange={e => setEmail(e.target.value)}
           />
-          <label> <input  className={styles.custom_checkbox} type="checkbox" checked={checked}
+          <label className={styles.custom_checkbox}> <input   type="checkbox" checked={checked}
           onChange={handleChange} /><p className={styles.text__checkbox}>Нажимая на кпопку вы соглашаетесь с политикой конфидициальности</p></label>
           
           <button className={styles.form__button} type="submit">Send</button>

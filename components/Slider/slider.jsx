@@ -83,7 +83,7 @@ export default class Responsive extends Component {
           <div>
           <h4 className={styles.slick__h4}>Изысканный фасад</h4>
           <Image
-                    src="/slider5.png"
+                    src="/slider4.png"
                     alt="Logo"
                     width={307}
                     height={360}

@@ -44,3 +44,10 @@
     line-height: 25px;
     color: #FFFFFF;
   }
+
+
+  @media (max-width: 768px) {
+    .custom_checkbox{
+      display: none;
+    }
+  }
