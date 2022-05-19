@@ -23,7 +23,7 @@ const Navbar = () => {
                 
                 <div className={styles.header__right}>
                 <p className={styles.header__text}>+996 777 39 77 77</p>
-                    <Link href=''>
+                    <Link href='#Form'>
                         <a className={styles.header__button}>
                            Оставить заявку
                         </a>

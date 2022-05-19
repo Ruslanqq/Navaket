@@ -5,7 +5,7 @@ import React from "react";
 
 const Project = () => {
   return (
-    <section className={styles.project}>
+    <section id="Project" className={styles.project}>
     <div className={styles.container}>
       <div className={styles.project__text}>
         <h3>Проект</h3>
@@ -32,8 +32,6 @@ const Project = () => {
           </div>
         </div>
       </div>
-
-  
     </div>
   </section>
   );

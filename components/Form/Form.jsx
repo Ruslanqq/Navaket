@@ -27,7 +27,7 @@ export default function Form() {
   };
 
   return (
-        <form action="mailto:you@yourdmainhere.com" className={styles.form}>
+        <form id='Form' action="mailto:you@yourdmainhere.com" className={styles.form}>
           <label  htmlFor="name"></label>
           <input className={styles.input}
             id="name"

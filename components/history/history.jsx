@@ -6,7 +6,7 @@ import React from "react";
 
 const History = () => {
   return (
-        <section className={styles.history}>
+        <section id="History" className={styles.history}>
           <div className={styles.container}>
             <div className={styles.history__content}>
               <h3 className={styles.history__title}>История</h3>

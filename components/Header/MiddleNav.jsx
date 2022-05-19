@@ -4,7 +4,6 @@ import Link from "next/link";
 import styles from "./NavBar.module.css";
 
 const Ul = styled.ul`
-display: flex;
 padding-bottom: 40px;
   list-style: none;
   display: flex;
@@ -48,9 +47,9 @@ padding-bottom: 40px;
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li> История</li>
-      <li>О нас</li>
-      <li>Проект</li>
+      <li> <a href="#History">История</a> </li>
+      <li><a href="#AboutUs">О нас</a> </li>
+      <li><a href="#Project">Проект</a> </li>
       <Link href=''>
         <a className={styles.header__button1}>
                            Оставить заявку
