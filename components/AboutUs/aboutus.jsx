@@ -36,10 +36,10 @@ const AboutUs = () => {
             <div className={styles.about__img}>
             <div className={styles.aboutimg}>
             <Image className={styles.aboutimg}
-                src="/About_us-left.png"
+                src="/About_us-left.jpg"
                 alt="hero__img"
-                width={530}
-                height={368}
+                width={630}
+                height={468}
               />
              </div>
              
@@ -48,7 +48,7 @@ const AboutUs = () => {
                 src="/About_us-right.png"
                 alt="hero__img"
                 width={447}
-                height={368}
+                height={468}
               />
              </div>
             </div>
