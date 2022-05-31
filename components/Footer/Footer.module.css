@@ -169,6 +169,11 @@
 
     .footer_social{
       margin-top: 30px;
+      margin-left: 30%;
+    }
+
+    .footer__item__link{
+      margin-left: 40%;
     }
 
     

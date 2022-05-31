@@ -34,18 +34,23 @@ const AboutUs = () => {
               </div>
             </div>
             <div className={styles.about__img}>
-              <Image className={styles.aboutimg}
+            <div className={styles.aboutimg}>
+            <Image className={styles.aboutimg}
                 src="/About_us-left.png"
                 alt="hero__img"
-                width={413}
-                height={568}
+                width={530}
+                height={368}
               />
-              <Image
+             </div>
+             
+             <div className={styles.aboutimg2}>
+             <Image 
                 src="/About_us-right.png"
                 alt="hero__img"
-                width={847}
-                height={468}
+                width={447}
+                height={368}
               />
+             </div>
             </div>
           </div>
         </section>
