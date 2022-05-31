@@ -7,8 +7,9 @@ import styles from "./slider.module.css";
 export default class Responsive extends Component {
   render() {
     var settings = {
+      arrows: false,
       dots: true,
-      infinite: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 1,
@@ -20,15 +21,15 @@ export default class Responsive extends Component {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
           }
         },
         {
@@ -54,7 +55,7 @@ export default class Responsive extends Component {
                   />
           </div>
           <div>
-          <h4 className={styles.slick__h4}>Изысканный фасад</h4>
+          <h4 className={styles.slick__h4}>Фитнес Зал</h4>
           <Image
                     src="/slider2.png"
                     alt="Logo"
@@ -63,7 +64,7 @@ export default class Responsive extends Component {
                   />
           </div>
           <div>
-          <h4 className={styles.slick__h4}>Изысканный фасад</h4>
+          <h4 className={styles.slick__h4}>Финская Баня</h4>
           <Image
                     src="/slider3.png"
                     alt="Logo"
@@ -72,16 +73,7 @@ export default class Responsive extends Component {
                   />
           </div>
           <div>
-          <h4 className={styles.slick__h4}>Изысканный фасад</h4>
-          <Image
-                    src="/slider4.png"
-                    alt="Logo"
-                    width={307}
-                    height={360}
-                  />
-          </div>
-          <div>
-          <h4 className={styles.slick__h4}>Изысканный фасад</h4>
+          <h4 className={styles.slick__h4}>Зона Отдыха</h4>
           <Image
                     src="/slider4.png"
                     alt="Logo"

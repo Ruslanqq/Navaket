@@ -34,7 +34,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className={styles.about__img}>
-              <Image
+              <Image className={styles.aboutimg}
                 src="/About_us-left.png"
                 alt="hero__img"
                 width={413}

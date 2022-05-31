@@ -68,7 +68,7 @@ const Header = () => {
         </div>
         <div className={styles.footer__right}>
           <ul className={styles.footer_right_list}>
-            <li>
+            <li className={styles.footer_social}>
               <Link href="https://www.instagram.com/arius.kg/">
                 <a className={styles.footer__item}>
                   <Image className={styles.footer__link}
@@ -77,11 +77,11 @@ const Header = () => {
                     width={34}
                     height={34}
                   />
-                  <span className={styles.social__text}>arius.kg</span>
+                  <p className={styles.social__text}>arius.kg</p>
                 </a>
               </Link>
             </li>
-            <li>
+            <li className={styles.footer_social}>
               <Link href="https://www.facebook.com/arius.kg/">
                 <a className={styles.footer__item}>
                   <Image className={styles.footer__link}
@@ -90,11 +90,11 @@ const Header = () => {
                     width={34}
                     height={34}
                   />
-                  <span className={styles.social__text}>arius.kg</span>
+                  <p className={styles.social__text}>arius.kg</p>
                 </a>
               </Link>
             </li>
-            <li>
+            <li className={styles.footer_social}>
               <Link href="/">
                 <a className={styles.footer__item}>
                   <Image className={styles.footer__link}
@@ -103,7 +103,7 @@ const Header = () => {
                     width={34}
                     height={34}
                   />
-                  <span className={styles.social__text}>ariuskg@gmail.com</span>
+                  <p className={styles.social__text}>ariuskg@gmail.com</p>
                 </a>
               </Link>
             </li>

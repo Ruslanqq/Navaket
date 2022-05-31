@@ -45,7 +45,7 @@ export default function Form() {
           <label className={styles.custom_checkbox}> <input   type="checkbox" checked={checked}
           onChange={handleChange} /><p className={styles.text__checkbox}>Нажимая на кпопку вы соглашаетесь с политикой конфидициальности</p></label>
           
-          <button className={styles.form__button} type="submit">Send</button>
+          <button className={styles.form__button} type="submit">Отправить</button>
         </form>
   );
 }

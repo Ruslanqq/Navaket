@@ -3,6 +3,7 @@ import styles from "./NavBar.module.css";
 import React from "react";
 import Link from "next/link";
 import Burger from "./Burger";
+import RightNav from "./MiddleNav";
 const Navbar = () => {
   return (
     <header className={styles.header}>
@@ -19,8 +20,8 @@ const Navbar = () => {
                         </div>
                     </a>
                 </Link>
-                <Burger/>
                 
+                <Burger/>
                 <div className={styles.header__right}>
                 <p className={styles.header__text}>+996 777 39 77 77</p>
                     <Link href='#Form'>
@@ -32,7 +33,7 @@ const Navbar = () => {
             </nav>
 
             <div className={styles.hero__content}>
-                <h1 className={styles.hero__h1}>Клубный двор</h1>
+                <h1 className={styles.hero__h1}>Клубный дом</h1>
                 <Image className={styles.hero__logo}
                 src='/Hero__img.svg'
                 alt='Logo'

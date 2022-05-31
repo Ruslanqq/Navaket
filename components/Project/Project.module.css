@@ -52,16 +52,25 @@
   }
 
   @media (max-width: 768px) {
-    .project{
+
+    .container{
       margin: 0 auto;
+      max-width: 100%;
     }
-    .about__h3{
-      padding-bottom: 30px;
+    .project{
+      text-align: center;
+      margin: 0 auto;
+      max-width: 100%;
     }
     .project__text{
-      width: 100%;
+      max-width: 100%;
       flex-wrap: nowrap;
       justify-content:center;
       flex-flow: column nowrap;
+    }
+
+    .project__wrapper{
+      margin-left: 15%;
+      padding-top: 30px;
     }
   }

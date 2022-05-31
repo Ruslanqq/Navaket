@@ -29,8 +29,24 @@
  
 
   @media (max-width: 768px) {
+
+    .about__us{
+      max-width: 100%;
+      text-align: center;
+      
+    }
     .about__h3{
       padding-bottom: 30px;
+      text-align: center;
+    }
+
+    .info__wrapper{
+      max-width: 90%;
+      margin-left: 20px;
+    }
+
+    .aboutimg{
+      margin-bottom: 30px;
     }
     .about__text{
       width: 100%;
@@ -43,6 +59,7 @@
       flex-wrap: nowrap;
       justify-content:center;
       flex-flow: column nowrap;
+      row-gap: 50px;
     }
   }
   

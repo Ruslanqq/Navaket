@@ -10,7 +10,7 @@ const Project = () => {
       <div className={styles.project__text}>
         <h3>Проект</h3>
         <div className={styles.project__wrapper}>
-          <p>
+          <p className={styles.project__h3}>
             Клубный дом обладает собственной инфраструктурой, что
             значительно улучшает и облегчает повседневные задачи важные
             современному человеку.

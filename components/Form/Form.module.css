@@ -2,7 +2,9 @@
     display: flex;
     flex-flow: column nowrap;
     row-gap: 30px;
+   
 }
+
 
 .input{
     font-family: 'Avenir Next Cyr';
@@ -47,6 +49,15 @@
 
 
   @media (max-width: 768px) {
+    .form{
+      display: flex;
+      flex-flow: column nowrap;
+      row-gap: 30px;
+      max-width: 70%;
+      margin-left: 15%;
+      margin-bottom: 50px;
+  }
+
     .custom_checkbox{
       display: none;
     }

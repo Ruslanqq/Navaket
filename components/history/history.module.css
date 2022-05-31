@@ -25,6 +25,8 @@
   }
 
   @media (max-width: 768px) {
+
+
     .history__title{
       position: relative;
 
@@ -34,12 +36,16 @@
       flex-wrap: nowrap;
       justify-content:center;
       flex-flow: column nowrap;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 80%;
     }
 
-    .history__text{
-      position: relative;
-      top: -10px;
+    .history__content{
+      row-gap: 30px;
     }
+
+   
 
     /* .history__title{
       position: relative;
