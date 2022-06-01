@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./Project.module.css";
 import React from "react";
 
+
 const Project = () => {
   return (
     <section id="Project" className={styles.project}>
