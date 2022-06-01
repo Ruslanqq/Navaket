@@ -3,12 +3,11 @@ import React from "react";
 import SimpleSlider from "../components/Slider/slider";
 import History from "../components/history/history.jsx";
 import Navbar from "../components/Header/NavBar";
-import Header from "../components/Header/NavBar";
-import AboutUs from "../components/Aboutus/aboutus";
+import AboutUs from "../components/AboutUs/aboutus";
 import Project from "../components/Project/project";
 import Footer from "../components/Footer/Footer";
 import Plan from "../components/plan/plan";
-import Hero from "../components/Header/NavBar";
+
 
 
 export default function Home() {
