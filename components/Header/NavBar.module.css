@@ -22,7 +22,6 @@
 
   .header{
     max-height: 1000px;
-    background-image: url('../../public/hero.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

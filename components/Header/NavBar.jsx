@@ -4,9 +4,10 @@ import React from "react";
 import Link from "next/link";
 import Burger from "./Burger";
 import RightNav from "./MiddleNav";
+import ok from '../../public/hero.png'
 const Navbar = () => {
   return (
-    <header className={styles.header}>
+    <header className={styles.header} style={{   backgroundImage: `url(${ok.src})`}}>
             <nav className={styles.nav_container}>
                 <Link href='/'>
                     <a>
